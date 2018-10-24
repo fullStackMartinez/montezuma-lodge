@@ -17,30 +17,28 @@ get_header(); ?>
 				<?php the_post_thumbnail('fuller'); ?>
 			</div>
 
-			<?php while ( have_posts() ) : the_post(); ?>
+			<?php while(have_posts()) : the_post(); ?>
 				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-					<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-					<h2 class="subheading"><?php the_field( "subheading"); ?></h2>
+					<?php the_title('<h1 class="entry-title">', '</h1>'); ?>
+					<h2 class="subheading"><?php the_field("subheading"); ?></h2>
 					<div class="entry-content">
 						<?php the_content(); ?>
 					</div>
-		
-					<?php if ( sizeof(get_field('gallery')) > 1 ) { ?>
 
-						<div class="colorbox">						
+					<?php if(sizeof(get_field('gallery')) > 1) { ?>
+
+						<div class="colorbox">
 							<?php $images = get_field('gallery');
-							foreach( $images as $image ): ?>
-								<a href="<?php echo $image['sizes']['large'] ?>" title="<?php echo $image['title'] ?>" >
-						            <img src="<?php echo $image['sizes']['thumbnail'] ?>" alt="<?php echo $image['alt']; ?>" />             
-						        </a>
-					        <?php endforeach; ?>
-				        </div>
-			        <?php } ?>
-			        
+							foreach($images as $image): ?>
+								<a href="<?php echo $image['sizes']['large'] ?>" title="<?php echo $image['title'] ?>">
+									<img src="<?php echo $image['sizes']['thumbnail'] ?>" alt="<?php echo $image['alt']; ?>"/>
+								</a>
+							<?php endforeach; ?>
+						</div>
+					<?php } ?>
+
 				</article>
 			<?php endwhile; ?>
-
-			
 
 
 		</main><!-- #main -->

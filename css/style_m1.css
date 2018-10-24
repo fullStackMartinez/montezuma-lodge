@@ -8,36 +8,40 @@
 /* SCSS VARIABLES */
 /* SITEWIDE STYLES */
 @import url("https://fast.fonts.net/lt/1.css?apiType=css&c=fe51ea5a-abc3-446b-a67e-9f2b2a4b5ab3&fontids=693341,709822,1122824,1122827");
-@font-face{
-	font-family:"Gill Sans W01 Light";
-	src:url("../Fonts/693341/acd8a043-828c-4c2c-98cb-b5224f5d4cdb.eot?#iefix");
-	src:url("../Fonts/693341/acd8a043-828c-4c2c-98cb-b5224f5d4cdb.eot?#iefix") format("eot"),url("../Fonts/693341/a2926047-aec5-42f4-b352-e593469518be.woff2") format("woff2"),url("../Fonts/693341/c56da29d-9c5b-4d94-900f-770cde3dd317.woff") format("woff"),url("../Fonts/693341/378182d1-8021-4674-a814-cc8f01f9a937.ttf") format("truetype");
+
+@font-face {
+	font-family: "Gill Sans W01 Light";
+	src: url("../Fonts/693341/acd8a043-828c-4c2c-98cb-b5224f5d4cdb.eot?#iefix");
+	src: url("../Fonts/693341/acd8a043-828c-4c2c-98cb-b5224f5d4cdb.eot?#iefix") format("eot"), url("../Fonts/693341/a2926047-aec5-42f4-b352-e593469518be.woff2") format("woff2"), url("../Fonts/693341/c56da29d-9c5b-4d94-900f-770cde3dd317.woff") format("woff"), url("../Fonts/693341/378182d1-8021-4674-a814-cc8f01f9a937.ttf") format("truetype");
 }
-@font-face{
-	font-family:"GillSansW01-DisplayBold_709822";
-	src:url("../Fonts/709822/b78883bf-b91f-4727-b6ff-3c19c5f896f7.eot?#iefix");
-	src:url("../Fonts/709822/b78883bf-b91f-4727-b6ff-3c19c5f896f7.eot?#iefix") format("eot"),url("../Fonts/709822/e18547f6-0aea-49c3-ae3d-6a0909ada6ba.woff2") format("woff2"),url("../Fonts/709822/1b46cdcc-147b-4a73-8ba8-68f40bc55daa.woff") format("woff"),url("../Fonts/709822/e6850362-9749-48f4-bcb5-dd5dd3b59325.ttf") format("truetype");
+
+@font-face {
+	font-family: "GillSansW01-DisplayBold_709822";
+	src: url("../Fonts/709822/b78883bf-b91f-4727-b6ff-3c19c5f896f7.eot?#iefix");
+	src: url("../Fonts/709822/b78883bf-b91f-4727-b6ff-3c19c5f896f7.eot?#iefix") format("eot"), url("../Fonts/709822/e18547f6-0aea-49c3-ae3d-6a0909ada6ba.woff2") format("woff2"), url("../Fonts/709822/1b46cdcc-147b-4a73-8ba8-68f40bc55daa.woff") format("woff"), url("../Fonts/709822/e6850362-9749-48f4-bcb5-dd5dd3b59325.ttf") format("truetype");
 }
-@font-face{
-	font-family:"Gill Sans W04 Book";
-	src:url("../Fonts/1122824/c4be5717-c19c-43a5-9ad3-b548ddf070d4.eot?#iefix");
-	src:url("../Fonts/1122824/c4be5717-c19c-43a5-9ad3-b548ddf070d4.eot?#iefix") format("eot"),url("../Fonts/1122824/4bfd13a9-3195-4d8f-87a9-83a212d18b16.woff2") format("woff2"),url("../Fonts/1122824/63aa9f40-04be-453a-a672-aa8f9919115d.woff") format("woff"),url("../Fonts/1122824/a82a5fb6-ad03-4675-801e-d3182a58ff5f.ttf") format("truetype");
+
+@font-face {
+	font-family: "Gill Sans W04 Book";
+	src: url("../Fonts/1122824/c4be5717-c19c-43a5-9ad3-b548ddf070d4.eot?#iefix");
+	src: url("../Fonts/1122824/c4be5717-c19c-43a5-9ad3-b548ddf070d4.eot?#iefix") format("eot"), url("../Fonts/1122824/4bfd13a9-3195-4d8f-87a9-83a212d18b16.woff2") format("woff2"), url("../Fonts/1122824/63aa9f40-04be-453a-a672-aa8f9919115d.woff") format("woff"), url("../Fonts/1122824/a82a5fb6-ad03-4675-801e-d3182a58ff5f.ttf") format("truetype");
 }
-@font-face{
-	font-family:"GillSansW04-BookItalic";
-	src:url("../Fonts/1122827/b5f8129c-7f57-4337-bd99-6f185073a899.eot?#iefix");
-	src:url("../Fonts/1122827/b5f8129c-7f57-4337-bd99-6f185073a899.eot?#iefix") format("eot"),url("../Fonts/1122827/688f1581-b411-41b9-ac0a-cf8f11f9f016.woff2") format("woff2"),url("../Fonts/1122827/ad4e4365-3d3d-427b-a9a9-94c3b9dfa074.woff") format("woff"),url("../Fonts/1122827/e01d0d2d-4f9e-4189-8c81-4c9371bb4511.ttf") format("truetype");
+
+@font-face {
+	font-family: "GillSansW04-BookItalic";
+	src: url("../Fonts/1122827/b5f8129c-7f57-4337-bd99-6f185073a899.eot?#iefix");
+	src: url("../Fonts/1122827/b5f8129c-7f57-4337-bd99-6f185073a899.eot?#iefix") format("eot"), url("../Fonts/1122827/688f1581-b411-41b9-ac0a-cf8f11f9f016.woff2") format("woff2"), url("../Fonts/1122827/ad4e4365-3d3d-427b-a9a9-94c3b9dfa074.woff") format("woff"), url("../Fonts/1122827/e01d0d2d-4f9e-4189-8c81-4c9371bb4511.ttf") format("truetype");
 }
 
 * {
 	margin: 0;
-	padding:0;
+	padding: 0;
 }
 
 #page {
 	display: flex;
- min-height: 100vh;
- flex-direction: column;
+	min-height: 100vh;
+	flex-direction: column;
 }
 
 #content {
@@ -48,14 +52,14 @@
 	flex: 1;
 }
 
-h1{
+h1 {
 	font-size: 20px;
 	font-family: "Gill Sans W04 Book";
 	text-transform: uppercase;
 	color: #212B4C
 }
 
-h2{
+h2 {
 	font-family: "Gill Sans W01 Light";
 	font-weight: lighter;
 	text-transform: uppercase;
@@ -94,12 +98,11 @@ h6 {
 	text-align: center;
 }
 
-
 .events {
 	margin-top: 100px;
 }
 
-.event-container{
+.event-container {
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
@@ -112,8 +115,7 @@ h6 {
 	text-transform: uppercase;
 }
 
-
-.p-day{
+.p-day {
 	padding-right: 40px;
 	font-family: "GillSansW01-DisplayBold_709822";
 	font-size: 20px;
@@ -122,10 +124,10 @@ h6 {
 	color: #212B4C;
 }
 
-.p-date{
+.p-date {
 	padding-right: 50px;
 	/*font-family: "GillSansW01-DisplayBold_709822";*/
-	font-family:"Gill Sans W04 Book";
+	font-family: "Gill Sans W04 Book";
 	font-size: 20px;
 	font-weight: bold;
 	letter-spacing: .5px;
@@ -142,7 +144,7 @@ h6 {
 	padding-right: 30px;
 }
 
-.p-end{
+.p-end {
 	padding-right: 55px;
 	font-family: "GillSansW01-DisplayBold_709822";
 	font-size: 20px;
@@ -154,14 +156,15 @@ h6 {
 .p-title {
 	font-size: 20px;
 	padding-right: 5px;
-	font-family:"Gill Sans W04 Book";
+	font-family: "Gill Sans W04 Book";
 	color: #212B4C;
 	padding-top: 1px;
 }
+
 .p-attend {
 	font-size: 20px;
 	padding-right: 10px;
-	font-family:"Gill Sans W04 Book";
+	font-family: "Gill Sans W04 Book";
 	color: #212B4C;
 	padding-top: 1px;
 }
@@ -191,14 +194,11 @@ h6 {
 	color: #0040ff;
 }
 
-
-.wrapper{
+.wrapper {
 	max-width: 1020px;
 	padding: 0 10px;
 	margin: 0 auto;
 }
-
-
 
 header {
 	height: 50px;
@@ -231,27 +231,25 @@ a:hover {
 	display: flex;
 }
 
-
-
-header nav ul{
+header nav ul {
 	font-family: "Gill Sans W01 Light";
 	display: flex;
 	padding-top: 15px;
 }
 
-header nav h2{
+header nav h2 {
 	height: 0;
 	margin: 0;
 }
 
-header nav li{
+header nav li {
 	flex: 1;
 	padding-right: 20px;
 	font-size: 14px;
 
 }
 
-header nav ul li a{
+header nav ul li a {
 	text-decoration: none;
 	color: lightgray;
 	text-transform: uppercase;
@@ -280,10 +278,10 @@ header nav ul li a:hover {
 	color: yellow;
 }
 
- #main-banner {
-	 width: 100%;
-	 margin-top: 40px;
- }
+#main-banner {
+	width: 100%;
+	margin-top: 40px;
+}
 
 #main-banner img {
 	width: 100%;
@@ -307,8 +305,7 @@ header nav ul li a:hover {
 }
 */
 
-
-#content-section{
+#content-section {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
@@ -317,7 +314,7 @@ header nav ul li a:hover {
 .content-box-1 {
 	padding: 45px 55px 55px 140px;
 	background-color: #EEE;
-	width:50%;
+	width: 50%;
 }
 
 .content-box-1 .content-title {
@@ -327,8 +324,8 @@ header nav ul li a:hover {
 	padding-bottom: 10px;
 }
 
-.content-p{
-	margin-bottom:0;
+.content-p {
+	margin-bottom: 0;
 	font-size: 15px;
 	line-height: 20px;
 	font-family: "Gill Sans W01 Light";
@@ -348,13 +345,13 @@ header nav ul li a:hover {
 	color: white;
 }
 
-.quicklinks-box ul{
+.quicklinks-box ul {
 	padding: 0;
 	list-style-type: none;
 	line-height: 19px;
 }
 
-.quicklinks-box li{
+.quicklinks-box li {
 	float: left;
 	width: 46%;
 	text-transform: uppercase;
@@ -375,10 +372,11 @@ header nav ul li a:hover {
 	color: inherit;
 }
 
-.quicklinks-box h3{
+.quicklinks-box h3 {
 	padding-left: 50px;
 }
-.events-title-container{
+
+.events-title-container {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
@@ -396,6 +394,7 @@ header nav ul li a:hover {
 .event-title-mobile {
 	display: none;
 }
+
 .event-button {
 	padding: 15px 25px;
 	font-weight: 600;
@@ -414,7 +413,6 @@ header nav ul li a:hover {
 .event-button:hover {
 	background-color: #0040FF;
 }
-
 
 .articles {
 }
@@ -446,9 +444,7 @@ ul.articles-list li .article-summary2 {
 	flex: 2;
 }
 
-
 ul.articles-list li .article-summary img {
-
 
 }
 
@@ -481,7 +477,6 @@ a {
 	color: blue;
 }
 
-
 article {
 	width: 600px;
 	margin: 0 auto;
@@ -501,19 +496,19 @@ article .entry-content {
 	padding-bottom: 50px;
 }
 
-article .entry-content ul{
+article .entry-content ul {
 	clear: none;
 	overflow: hidden;
 	margin-top: -11px;
 	padding-left: 21px;
 }
 
-article .entry-content ul li{
+article .entry-content ul li {
 	position: relative;
 	list-style-type: none;
 }
 
-article .entry-content ul li:before{
+article .entry-content ul li:before {
 	position: absolute;
 	top: 5px;
 	left: -20px;
@@ -523,8 +518,8 @@ article .entry-content ul li:before{
 	background-color: #265Cff;
 }
 
-.article-title{
-	font-family:"Gill Sans W01 Light";
+.article-title {
+	font-family: "Gill Sans W01 Light";
 
 }
 
@@ -537,46 +532,49 @@ body #main-page {
 	margin: 50px auto 45px;
 }
 
-
 body:not(.home) .page-header {
 	text-align: center;
 	max-height: 400px;
 }
 
 body:not(.home) .page-header img {
-	max-height:400px;
+	max-height: 400px;
 	max-width: 100%;
 }
 
 body:not(.home) article {
 	width: 60%;
-    margin: 0 auto;
+	margin: 0 auto;
 }
 
 body:not(.home) article .entry-title {
 	letter-spacing: 1.5px;
 	font-size: 20px;
 	color: #1f2b4c;
-    margin-top: 34px;
-    font-family: "Gill Sans W04 Book";
+	margin-top: 34px;
+	font-family: "Gill Sans W04 Book";
 	margin-bottom: 30px;
-	text-align: center; }
+	text-align: center;
+}
 
 body:not(.home) article .entry-title-event {
 	letter-spacing: 1.5px;
 	font-size: 20px;
-	color:  #1F2B4C;
-    margin-top: 34px;
+	color: #1F2B4C;
+	margin-top: 34px;
 	margin-bottom: 0px;
 	font-family: "Gill Sans W04 Book";
-	text-align: center; }
+	text-align: center;
+}
 
 body:not(.home) article h2.subheading {
 	font-size: 13px;
 	font-weight: normal;
 	margin-top: 0;
 	text-align: center;
-	text-transform: uppercase; }
+	text-transform: uppercase;
+}
+
 body:not(.home) article h4.subheading {
 	font-size: 14px;
 	font-family: "Gill Sans W04 Book";
@@ -585,6 +583,7 @@ body:not(.home) article h4.subheading {
 	text-align: center;
 	margin-bottom: 10px;
 }
+
 body:not(.home) article h4.subheading-event {
 	font-size: 14px;
 	font-family: "Gill Sans W04 Book";
@@ -593,9 +592,11 @@ body:not(.home) article h4.subheading-event {
 	text-align: center;
 	margin-bottom: 10px;
 }
+
 body:not(.home) article p.attendants {
 	text-align: center;
 }
+
 body:not(.home) article p.attendants-single-event {
 	text-align: center;
 	font-family: "GillSansW04-BookItalic";
@@ -603,57 +604,81 @@ body:not(.home) article p.attendants-single-event {
 	font-weight: 600;
 	margin-bottom: 20px;
 }
+
 body:not(.home) article .entry-content {
 	margin-top: 0;
 	padding-bottom: 50px;
 	line-height: 21px;
-    font-family: "Gill Sans W04 Book";
+	font-family: "Gill Sans W04 Book";
 	font-size: 15px;
 }
 
 body:not(.home) article .entry-content p {
 	padding-bottom: 10px;
 }
+
 body:not(.home) article .entry-content h1 {
 	font-size: 20px;
-	margin-bottom: 0; }
+	margin-bottom: 0;
+}
+
 body:not(.home) article .entry-content h2 {
 	font-size: 18px;
 	font-weight: normal;
-	margin-bottom: 0; }
+	margin-bottom: 0;
+}
+
 body:not(.home) article .entry-content h3 {
 	font-size: 16px;
-	margin-bottom: 0; }
+	margin-bottom: 0;
+}
+
 body:not(.home) article .entry-content h4 {
 	font-size: 16px;
 	font-weight: normal;
-	margin-bottom: 0; }
+	margin-bottom: 0;
+}
+
 body:not(.home) article .entry-content h5 {
 	font-size: 11px;
-	margin-bottom: 0; }
+	margin-bottom: 0;
+}
+
 body:not(.home) article .entry-content h6 {
 	font-size: 11px;
 	font-weight: normal;
-	margin-bottom: 0; }
+	margin-bottom: 0;
+}
+
 body:not(.home) article .entry-content a:hover {
-	color: #539a00; }
+	color: #539a00;
+}
+
 body:not(.home) article .entry-content p a {
 	text-decoration: underline;
-	color: #539a00; }
+	color: #539a00;
+}
+
 body:not(.home) article .entry-content p a:visited {
-	color: #0679b6 !important; }
+	color: #0679b6 !important;
+}
+
 body:not(.home) article .entry-content ul {
 	clear: none;
 	margin-bottom: 30px;
 	overflow: hidden;
 	margin-top: 11px;
-	padding-left: 21px; }
+	padding-left: 21px;
+}
+
 body:not(.home) article .entry-content ul li {
 	position: relative;
-	list-style-type: none; 
+	list-style-type: none;
 	font-family: "Gill Sans W04 Book";
 	font-size: 15px;
-	padding-bottom: 13px;}
+	padding-bottom: 13px;
+}
+
 body:not(.home) article .entry-content ul li:before {
 	position: absolute;
 	top: 3px;
@@ -661,33 +686,36 @@ body:not(.home) article .entry-content ul li:before {
 	width: 10px;
 	height: 10px;
 	content: '';
-    background-color: #265cff;
+	background-color: #265cff;
 }
- footer {
-	 min-height: 310px;
-	 display: flex;
-	 background-color: #222C4B;
- }
 
- footer .footer-logo {
-	 width: 40%;
+footer {
+	min-height: 310px;
+	display: flex;
+	background-color: #222C4B;
+}
 
- }
- footer .footer-logo .footer-logo-image {
-	 padding-top: 50px;
-	 padding-left: 234px;
- }
+footer .footer-logo {
+	width: 40%;
 
- footer .footer-logo .footer-logo-name {
-	 padding-left: 108px;
-	 padding-top: 35px;
- }
+}
 
- footer .footer-info {
-	 width: 60%;
-	 padding-top: 135px;
-	 padding-left: 40px;
- }
+footer .footer-logo .footer-logo-image {
+	padding-top: 50px;
+	padding-left: 234px;
+}
+
+footer .footer-logo .footer-logo-name {
+	padding-left: 108px;
+	padding-top: 35px;
+}
+
+footer .footer-info {
+	width: 60%;
+	padding-top: 135px;
+	padding-left: 40px;
+}
+
 .footer-info ul {
 	display: flex;
 	flex-wrap: wrap;
@@ -711,7 +739,7 @@ body:not(.home) article .entry-content ul li:before {
 	color: yellow;
 }
 
-footer{
+footer {
 	position: relative;
 	bottom: 0;
 	left: 0;
@@ -736,32 +764,34 @@ body #main-page2 {
 	margin: 50px auto 4px;
 }
 
-div.wpcf7 { 
-padding:20px;
+div.wpcf7 {
+	padding: 20px;
 	background-color: white;
-	    font-family: "Gill Sans W01 Light";
+	font-family: "Gill Sans W01 Light";
 	font-size: 20px;
 }
 
 div.wpcf7 {
-    margin: 0px auto !important;
-    width: 450px;
-    display: block;
+	margin: 0px auto !important;
+	width: 450px;
+	display: block;
 }
+
 .wpcf7 input[type="text"],
 .wpcf7 input[type="email"],
 .wpcf7 textarea {
-width: 550px;
-    max-width: 100%;
-    padding-right: 5px;
-    padding-left: 5px;
-    border: 0;
-    border-radius: 0;
-    background-color: #eee;
+	width: 550px;
+	max-width: 100%;
+	padding-right: 5px;
+	padding-left: 5px;
+	border: 0;
+	border-radius: 0;
+	background-color: #eee;
 }
+
 .wpcf7 input[type="submit"],
-.wpcf7 input[type="button"] { 
-padding: 15px 25px;
+.wpcf7 input[type="button"] {
+	padding: 15px 25px;
 	font-weight: 600;
 	font-size: 14px;
 	text-transform: uppercase;
@@ -770,8 +800,9 @@ padding: 15px 25px;
 	margin-right: 60px;
 	font-family: "GillSansW01-DisplayBold_709822";
 }
+
 .wpcf7-submit:hover {
-		background-color: #0040FF;
+	background-color: #0040FF;
 
 }
 
@@ -781,7 +812,7 @@ padding: 15px 25px;
 	.quicklinks-box li {
 		padding-left: 30px;
 	}
-	
+
 	.quicklinks-box h3 {
 		padding-left: 30px;
 	}
@@ -789,13 +820,14 @@ padding: 15px 25px;
 
 @media only screen and (max-width: 1086px) {
 	.quicklinks-box {
-		    padding: 45px 0px 0px 0px;
+		padding: 45px 0px 0px 0px;
 
 	}
+
 	.quicklinks-box li {
 		padding-left: 20px;
 	}
-	
+
 	.quicklinks-box h3 {
 		padding-left: 20px;
 	}
@@ -805,18 +837,18 @@ padding: 15px 25px;
 	.quicklinks-box li {
 		padding-left: 10px;
 	}
-	
+
 	.quicklinks-box h3 {
 		padding-left: 10px;
 	}
-	
+
 	header nav li {
 		padding-right: 13px;
 	}
 }
 
 @media only screen and (max-width: 950px) {
-	
+
 	header {
 		position: fixed;
 	}
@@ -835,9 +867,9 @@ padding: 15px 25px;
 	nav {
 		margin: 0 auto;
 	}
-	
-	.sub-menu{
-		height:auto!important;
+
+	.sub-menu {
+		height: auto !important;
 	}
 
 	header .wrapper {
@@ -868,14 +900,14 @@ padding: 15px 25px;
 		margin: 0;
 		border-bottom: 1px solid #EEE;
 	}
-	
+
 	header nav li {
 		flex: 1;
 		padding: 0 30px;
 		font-size: 18px;
 	}
 
-	header nav ul li a{
+	header nav ul li a {
 		color: #fff;
 		padding: 10px;
 		display: block;
@@ -885,6 +917,7 @@ padding: 15px 25px;
 	header nav ul.open {
 		height: auto;
 	}
+
 	#content-section {
 		width: 100%;
 		display: block;
@@ -934,35 +967,35 @@ padding: 15px 25px;
 }
 
 @media only screen and (max-width: 900px) {
-	
+
 	header {
 		position: fixed;
 	}
-	
+
 	.home-slideshow .nav-boxes {
-    position: absolute;
-    bottom: 5px;
-    width: 100%;
-    padding-right: 60px;
-    text-align: right;
-    opacity: .8;
+		position: absolute;
+		bottom: 5px;
+		width: 100%;
+		padding-right: 60px;
+		text-align: right;
+		opacity: .8;
 	}
-	
+
 	.home-slideshow .slideshow-logo {
-    position: absolute;
-    width: 67px;
-    height: 86px;
-    background-image: url(../images/masonic-logo.png);
-    background-size: 67px 86px;
-    bottom: 40px;
-    right: 62px;
-    z-index: 10;
+		position: absolute;
+		width: 67px;
+		height: 86px;
+		background-image: url(../images/masonic-logo.png);
+		background-size: 67px 86px;
+		bottom: 40px;
+		right: 62px;
+		z-index: 10;
 	}
-	
+
 	.event-container {
 		padding: 35px 0px 25px 140px;
 	}
-	
+
 	.events-title-container {
 		width: 100%;
 		display: block;
@@ -975,18 +1008,18 @@ padding: 15px 25px;
 	.event-button {
 		display: none;
 	}
-	
+
 	.event-button-mobile {
 		display: inherit;
-	padding: 15px 25px;
-	font-weight: 600;
-	font-size: 14px;
-	text-transform: uppercase;
-	background-color: rgb(34, 43, 76);
-	color: white;
-	margin-right: 0;
-	font-family: "GillSansW01-DisplayBold_709822";
-}
+		padding: 15px 25px;
+		font-weight: 600;
+		font-size: 14px;
+		text-transform: uppercase;
+		background-color: rgb(34, 43, 76);
+		color: white;
+		margin-right: 0;
+		font-family: "GillSansW01-DisplayBold_709822";
+	}
 
 	.event-title {
 		padding-left: 0;
@@ -994,19 +1027,20 @@ padding: 15px 25px;
 	}
 
 	.footer-info ul {
-	font-size: 20px
+		font-size: 20px
 	}
 
 	footer .footer-info {
-	padding-top: 70px;
+		padding-top: 70px;
 	}
 }
 
 @media only screen and (max-width: 850px) {
-	
+
 	header {
 		position: fixed;
 	}
+
 	.burger-nav {
 		display: block;
 		height: 40px;
@@ -1017,49 +1051,48 @@ padding: 15px 25px;
 		background: url(../images/hamburger-icon.png) no-repeat 98% center;
 		cursor: pointer;
 	}
-	
+
 	.main-navigation ul ul {
-    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-    float: left;
-    visibility: visible !important;
-    position: relative;
-    top: 100%;
-    left: -5.5em;
-    text-align: center;
-    z-index: 99999;
-    background-color: #414459;
-    width: 450%;
-}
+		box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+		float: left;
+		visibility: visible !important;
+		position: relative;
+		top: 100%;
+		left: -5.5em;
+		text-align: center;
+		z-index: 99999;
+		background-color: #414459;
+		width: 450%;
+	}
 }
 
 @media only screen and (max-width: 800px) {
 	.main-navigation ul ul {
-    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-    float: left;
-    visibility: visible !important;
-    position: relative;
-    top: 100%;
-    left: -5.0em;
-    text-align: center;
-    z-index: 99999;
-    background-color: #414459;
-    width: 450%;
-}
+		box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+		float: left;
+		visibility: visible !important;
+		position: relative;
+		top: 100%;
+		left: -5.0em;
+		text-align: center;
+		z-index: 99999;
+		background-color: #414459;
+		width: 450%;
+	}
 }
 
 @media only screen and (max-width: 750px) {
-	
+
 	.logo {
-    padding-right: 0;
-    padding-top: 14px;
-    padding-left: 80px;
-}
-	
+		padding-right: 0;
+		padding-top: 14px;
+		padding-left: 80px;
+	}
+
 	header {
 		position: fixed;
 	}
-	
-	
+
 	.event-container {
 		display: block;
 		text-align: center;
@@ -1090,11 +1123,11 @@ padding: 15px 25px;
 	}
 
 	footer .footer-logo {
-	width: 100%;
+		width: 100%;
 	}
 
 	footer .footer-info {
-	width: 100%;
+		width: 100%;
 		padding-left: 10px;
 		padding-right: 10px;
 		padding-top: 30px;
@@ -1109,7 +1142,7 @@ padding: 15px 25px;
 		padding-top: 30px;
 		padding-left: 0;
 	}
-	
+
 	.footer-info ul {
 		justify-content: center;
 	}
@@ -1119,132 +1152,137 @@ padding: 15px 25px;
 	header {
 		position: fixed;
 	}
-	
+
 	.home-slideshow .slideshow-logo {
-    position: absolute;
-    width: 47px;
-    height: 66px;
-    background-image: url(../images/masonic-logo.png);
-    background-size: 47px 66px;
-    bottom: 40px;
-    right: 22px;
-    z-index: 10;
+		position: absolute;
+		width: 47px;
+		height: 66px;
+		background-image: url(../images/masonic-logo.png);
+		background-size: 47px 66px;
+		bottom: 40px;
+		right: 22px;
+		z-index: 10;
 	}
-	
+
 	.home-slideshow .nav-boxes {
-    position: absolute;
-    bottom: 5px;
-    width: 100%;
-    padding-right: 10px;
-    text-align: right;
-    opacity: .8;
+		position: absolute;
+		bottom: 5px;
+		width: 100%;
+		padding-right: 10px;
+		text-align: right;
+		opacity: .8;
 	}
 }
+
 @media only screen and (max-width: 600px) {
 	header {
 		position: fixed;
 	}
-	
+
 	.home-slideshow .slideshow-logo {
-    display: none;
-}
-	
+		display: none;
+	}
+
 	.home-slideshow .nav-boxes {
 		display: none;
 	}
-	
+
 	.logo {
 		padding-right: 0;
 		padding-top: 14px;
 		padding-left: 80px;
 	}
-	
+
 	.events-title-container {
-    width: 100%;
-    display: block;
-    justify-content: space-between;
-    margin-top: 25px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-	
+		width: 100%;
+		display: block;
+		justify-content: space-between;
+		margin-top: 25px;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
 	body:not(.home) article {
 		width: 90%
+	}
 }
-}
-	@media only screen and (max-width: 590px) {
-		header {
+
+@media only screen and (max-width: 590px) {
+	header {
 		position: fixed;
 	}
 
-		.logo {
-			padding-right: 0;
-			padding-top: 14px;
-			padding-left: 10px;
-		}
+	.logo {
+		padding-right: 0;
+		padding-top: 14px;
+		padding-left: 10px;
+	}
 
-		.content-box-1 {
-			padding: 45px 55px 35px 55px;
-			background-color: #EEE;
-			width: 100%;
-		}
-		.quicklinks-box {
-			background-color: #CEC5b1;
-			padding: 45px 0px 0px 5px;
-			text-align: center;
-			padding-bottom: 35px;
-		}
+	.content-box-1 {
+		padding: 45px 55px 35px 55px;
+		background-color: #EEE;
+		width: 100%;
+	}
 
-		.quicklinks-box ul {
-			text-align: center;
-			height: 100%;
-		}
+	.quicklinks-box {
+		background-color: #CEC5b1;
+		padding: 45px 0px 0px 5px;
+		text-align: center;
+		padding-bottom: 35px;
+	}
 
-		.quicklinks-box li {
-			padding-left: 0;
-			float: none;
-			width: 100%;
-		}
+	.quicklinks-box ul {
+		text-align: center;
+		height: 100%;
+	}
 
-		.quicklinks-box h3 {
-			padding-left: 0;
-		}
+	.quicklinks-box li {
+		padding-left: 0;
+		float: none;
+		width: 100%;
+	}
+
+	.quicklinks-box h3 {
+		padding-left: 0;
+	}
 }
 
 @media only screen and (max-width: 500px) {
-	
+
 	.event-title {
 		display: none;
 	}
-	
+
 	.event-title-mobile {
 		display: block;
 		padding-left: 0px;
 		padding-bottom: 0px;
 		padding-top: 0px;
-	font-family: "Gill Sans W04 Book";
-	font-size: 20px;
-	text-transform: uppercase;
+		font-family: "Gill Sans W04 Book";
+		font-size: 20px;
+		text-transform: uppercase;
 	}
-	
+
 	.footer-logo-name {
-		width:80%;
+		width: 80%;
 	}
-	
+
 	footer .footer-info {
 		padding: 35px 10px 0px 10px;
 	}
-	
+
 	.footer-info ul {
 		display: block;
 	}
-	
+
 	.footer-info ul li:nth-child(2) {
 		display: none;
 	}
+
 	.footer-info ul li:nth-child(5) {
 		display: none;
 	}
+
 	.footer-info ul li:nth-child(7) {
 		display: none;
 	}
@@ -1254,30 +1292,30 @@ padding: 15px 25px;
 	header {
 		position: fixed;
 	}
-	
+
 	.navigation {
 		display: block;
 	}
-	
+
 	.logo {
 		width: 375px;
 	}
-	
-	.logo img{
-	max-width: 75%
-}
+
+	.logo img {
+		max-width: 75%
+	}
 
 	.burger-nav {
 		display: block;
-    height: 40px;
-    position: fixed;
-    top: 6px;
-    left: 100px;
-    width: 100%;
-    background: url(../images/hamburger-icon.png) no-repeat 70% center;
-    cursor: pointer;
+		height: 40px;
+		position: fixed;
+		top: 6px;
+		left: 100px;
+		width: 100%;
+		background: url(../images/hamburger-icon.png) no-repeat 70% center;
+		cursor: pointer;
 	}
-	
+
 	header nav li {
 		flex: 1;
 		padding: 0 60px;
@@ -1289,9 +1327,9 @@ padding: 15px 25px;
 	header {
 		position: fixed;
 	}
-	
+
 	.logo {
 		width: 330px;
 	}
-	
+
 }

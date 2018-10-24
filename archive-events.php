@@ -9,68 +9,67 @@ get_header();
 			<?php get_header(); ?>
 
 			<div class="events">
-				
+
 				<div class="events-title-container">
 					<div class="event-title">Upcoming Events at Montezuma lodge</div>
-					<a href="<?php the_permalink( get_page_by_title('Past Events')); ?>" class="button"><span class="event-button">view past events ></span></a>
+					<a href="<?php the_permalink(get_page_by_title('Past Events')); ?>" class="button"><span
+							class="event-button">view past events ></span></a>
 				</div>
 				<?php
 				$date_now = date('Y-m-d H:i:s');
 
 				// args
 				$args = array(
-					'posts_per_page'	=> -1,
-					'post_type'		=> 'Events',
-					'meta_query' 		=> array(
+					'posts_per_page' => -1,
+					'post_type' => 'Events',
+					'meta_query' => array(
 						array(
-							'key'			=> 'event_date',
-							'compare'		=> '>',
-							'value'			=> $date_now,
-							'type'			=> 'DATETIME'
+							'key' => 'event_date',
+							'compare' => '>',
+							'value' => $date_now,
+							'type' => 'DATETIME'
 						),
-						'order'				=> 'ASC',
-						'orderby'			=> 'meta_value',
-						'meta_key'			=> 'event_date',
-						'meta_type'			=> 'DATE'
+						'order' => 'ASC',
+						'orderby' => 'meta_value',
+						'meta_key' => 'event_date',
+						'meta_type' => 'DATE'
 					));
 
 				// query
-				$the_query = new WP_Query( $args );
+				$the_query = new WP_Query($args);
 
 				?>
-				<?php if( $the_query->have_posts() ): ?>
-				<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+				<?php if($the_query->have_posts()): ?>
+					<?php while($the_query->have_posts()) : $the_query->the_post(); ?>
 
 
+						<div class="event-container">
+							<p class="p-day">
+								<?php the_field('event_day'); ?>
+							</p>
+							<p class="p-date">
+								<?php the_field('event_date'); ?>
+							</p>
+							<p class="p-start">
+								<?php the_field('event_start_time'); ?>&ndash;<?php the_field('event_end_time'); ?>
+							</p>
+							<p class="p-title">
+								<?php the_title(); ?>:
+							</p>
+							<p class="p-attend">
+								<?php the_field('who_can_attend'); ?>
+							</p>
+							<a href="<?php the_permalink(); ?>">
+								<p class="link">More Info &nbsp;&gt;</p>
+							</a>
 
-				<div class="event-container">
-					<p class="p-day">
-						<?php the_field('event_day'); ?>
-					</p>
-					<p class="p-date">
-						<?php the_field('event_date'); ?>
-					</p>
-					<p class="p-start">
-				<?php the_field('event_start_time'); ?>&ndash;<?php the_field('event_end_time'); ?>
-			</p>
-					<p class="p-title">
-						<?php the_title();?>:
-					</p>
-					<p class="p-attend">
-						<?php the_field('who_can_attend');?>
-					</p>
-					<a href="<?php the_permalink(); ?>">
-						<p class="link">More Info &nbsp;&gt;</p>
-					</a>
+						</div>
 
-				</div>
 
-			
-
-			<?php endwhile;?>
-			<?php endif;?>
+					<?php endwhile; ?>
+				<?php endif; ?>
 			</div>
-		<?php wp_reset_postdata();?>
+			<?php wp_reset_postdata(); ?>
 
 
 		</main><!-- #main -->
