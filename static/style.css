@@ -1,0 +1,113 @@
+body{
+	font-family: Georgia;
+	margin: 0;
+}
+
+.wrapper{
+	width: 100%;
+	max-width: 1180px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+h2.logo{
+	float: left;
+}
+
+header nav{
+	float: right;
+
+}
+header nav h2{
+	text-indent: -10000px;
+	height: 0;
+	margin: 0;
+}
+
+header nav li{
+	float: left;
+	list-style-type: none;
+	margin: 10px 20px;
+}
+
+header nav li a{
+	text-decoration: none;
+	color: #333;
+	text-transform: uppercase;
+}
+
+#main-banner, #main-banner img {
+	width: 100%;
+}
+
+#content{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	flex-flow: wrap;
+}
+
+.wp-content1 {
+	width: 50%;
+	box-sizing: border-box;
+	background-color: rgb(238, 238, 238);
+
+}
+
+.wp-content2 {
+	width: 50%;
+	box-sizing: border-box;
+	background-color: rgb(206, 197, 177);
+}
+
+.wp-content2 ul{
+	padding: 0;
+	list-style-type: none;
+}
+
+.wp-content2 li{
+	float: left;
+	width: 46%;
+	padding: 0;
+	margin: 10px 0 10px 4%;
+}
+
+/*footer*/
+
+.footer-container {
+	width: 100%;
+	height: 300px;
+	display: flex;
+	flex-direction: row;
+	flex-flow: wrap;
+	background-color: rgb(34, 44, 75);
+	justify-content: space-around;
+}
+
+.footer-image {
+	width: 20%;
+
+}
+
+.footer-list{
+	width: 50%;
+
+}
+
+.footer-list ul{
+	list-style-type: none;
+	padding: 0;
+	line-height: 30px;
+}
+.footer-list li{
+	float:left;
+	list-style-type: none;
+
+}
+
+
+
+
+/*/////    Media Queries   ////////*/
+
